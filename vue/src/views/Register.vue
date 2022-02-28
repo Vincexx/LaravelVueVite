@@ -1,11 +1,11 @@
 <template>
   <div class="max-w-md w-full space-y-8">
     <div>
-      <img
+      <!-- <img
         class="mx-auto h-12 w-auto"
-        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+        src="https://tailwindui.com/img/logos/workflow-mark-green-600.svg"
         alt="Workflow"
-      />
+      /> -->
       <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
         Register an account
       </h2>
@@ -13,7 +13,7 @@
         Or
         {{ " " }}
         <router-link
-          class="font-medium text-indigo-600 hover:text-indigo-500"
+          class="font-medium text-green-600 hover:text-green-500"
           :to="{ name: 'Login' }"
           >Login to your account</router-link
         >
@@ -44,8 +44,8 @@
               text-gray-900
               rounded-t-md
               focus:outline-none
-              focus:ring-indigo-500
-              focus:border-indigo-500
+              focus:ring-green-500
+              focus:border-green-500
               focus:z-10
               sm:text-sm
             "
@@ -70,8 +70,8 @@
               text-gray-900
               rounded-b-md
               focus:outline-none
-              focus:ring-indigo-500
-              focus:border-indigo-500
+              focus:ring-green-500
+              focus:border-green-500
               focus:z-10
               sm:text-sm
             "
@@ -96,8 +96,8 @@
               text-gray-900
               rounded-b-md
               focus:outline-none
-              focus:ring-indigo-500
-              focus:border-indigo-500
+              focus:ring-green-500
+              focus:border-green-500
               focus:z-10
               sm:text-sm
             "
@@ -122,8 +122,8 @@
               text-gray-900
               rounded-b-md
               focus:outline-none
-              focus:ring-indigo-500
-              focus:border-indigo-500
+              focus:ring-green-500
+              focus:border-green-500
               focus:z-10
               sm:text-sm
             "
@@ -141,8 +141,8 @@
             class="
               h-4
               w-4
-              text-indigo-600
-              focus:ring-indigo-500
+              text-green-600
+              focus:ring-green-500
               border-gray-300
               rounded
             "
@@ -153,7 +153,7 @@
         </div>
 
         <div class="text-sm">
-          <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+          <a href="#" class="font-medium text-green-600 hover:text-green-500">
             Forgot your password?
           </a>
         </div>
@@ -175,17 +175,17 @@
             font-medium
             rounded-md
             text-white
-            bg-indigo-600
-            hover:bg-indigo-700
+            bg-green-600
+            hover:bg-green-700
             focus:outline-none
             focus:ring-2
             focus:ring-offset-2
-            focus:ring-indigo-500
+            focus:ring-green-500
           "
         >
           <span class="absolute left-0 inset-y-0 flex items-center pl-3">
             <LockClosedIcon
-              class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
+              class="h-5 w-5 text-green-500 group-hover:text-green-400"
               aria-hidden="true"
             />
           </span>
