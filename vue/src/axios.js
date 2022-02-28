@@ -2,7 +2,7 @@ import axios from 'axios'
 import store from './store'
 
 const axiosClient = axios.create({
-  baseURL: 'http://fullstack-app.test/api'
+  baseURL: import.meta.env.VITE_BASE_URL
 })
 
 axiosClient.interceptors.request.use(config => {
